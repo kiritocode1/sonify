@@ -24,7 +24,7 @@ function SonificationDemo() {
 
 	// Image state
 	const [selectedDemo, setSelectedDemo] = useState<string>("demo1");
-	const [imageSrc, setImageSrc] = useState<string>("/abstract-color-blocks.jpg");
+	const [imageSrc, setImageSrc] = useState<string>("/example/dark.jpeg");
 	const originalImageRef = useRef<HTMLImageElement | null>(null);
 	const imgWidthRef = useRef<number>(0);
 	const imgHeightRef = useRef<number>(0);
@@ -79,12 +79,12 @@ function SonificationDemo() {
 
 	const demoImages = useMemo(
 		() => [
-			{ id: "demo1", label: "Abstract Blocks", url: "/abstract-color-blocks.jpg" },
-			{ id: "demo2", label: "City Lights", url: "/city-lights-bokeh.jpg" },
-			{ id: "demo3", label: "Gradient Waves", url: "/gradient-waves.png" },
-			{ id: "demo4", label: "Vivid Landscape", url: "/vivid-landscape.jpg" },
-			{ id: "demo5", label: "Pop Art", url: "/pop-art-color.jpg" },
-			{ id: "demo6", label: "Colorful Portrait", url: "/colorful-abstract-portrait.png" },
+			{ id: "demo1", label: "Checkmate", url: "/example/checkmate.jpeg" },
+			{ id: "demo2", label: "City", url: "/example/city.jpeg" },
+			{ id: "demo3", label: "Dark", url: "/example/dark.jpeg" },
+			{ id: "demo4", label: "Feelings", url: "/example/feelings.jpeg" },
+			{ id: "demo5", label: "Howl", url: "/example/howl.jpeg" },
+			{ id: "demo6", label: "Me", url: "/example/me.png" },
 		],
 		[],
 	);
