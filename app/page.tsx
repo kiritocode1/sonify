@@ -565,6 +565,14 @@ function SonificationDemo() {
 					>
 						Built by Aryank — aryank.space
 					</a>
+					<a
+						href="https://github.com/kiritocode1/sonify"
+						target="_blank"
+						rel="noreferrer"
+						className="hover:text-white transition-colors"
+					>
+						GitHub
+					</a>
 				</div>
 				<div className="flex items-center gap-3">
 					<a
